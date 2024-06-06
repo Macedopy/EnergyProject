@@ -1,0 +1,35 @@
+MyProject
+│
+├── src
+│   ├── MyProject.Web
+│   │   ├── Controllers
+│   │   ├── Models
+│   │   ├── Views
+│   │   ├── wwwroot
+│   │   ├── Program.cs
+│   │   └── Startup.cs
+│   │
+│   ├── MyProject.Application
+│   │   ├── Interfaces
+│   │   ├── Services
+│   │   └── Dtos
+│   │
+│   ├── MyProject.Domain
+│   │   ├── Entities
+│   │   ├── ValueObjects
+│   │   ├── Interfaces
+│   │   └── Specifications
+│   │
+│   └── MyProject.Infrastructure
+│       ├── Data
+│       ├── Repositories
+│       ├── Configurations
+│       └── Services
+│
+├── tests
+│   ├── MyProject.Web.Tests
+│   ├── MyProject.Application.Tests
+│   ├── MyProject.Domain.Tests
+│   └── MyProject.Infrastructure.Tests
+│
+└── MyProject.sln
